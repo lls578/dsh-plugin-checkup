@@ -48,6 +48,11 @@ profiles: desktop, headless | 插件数: 11
  · 有 1 类能力装了 3 个以上（界面 / 主题 / 桌宠×4），考虑留最顺手的 1-2 个。
 ```
 
+## 视频介绍
+
+- B站：<https://www.bilibili.com/video/BV1ufxT6TEMj>（「你装了15个插件，几个是重复的？」）
+
+
 ## 安装
 
 ```powershell
