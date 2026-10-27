@@ -74,6 +74,12 @@ node test/plugin.test.mjs   # 单元测试（临时目录造数据，不联网�
 node scripts/demo.mjs       # 真实 profile 演示
 ```
 
+## 相关项目
+
+- [dsh-fish-radar](https://github.com/lls578/dsh-fish-radar) —— 鱼群雷达（评论区 AI 鱼浓度体检）
+- [dsh-bili-manager](https://github.com/lls578/dsh-bili-manager) —— B站 账号工具箱
+- [dsh-meme-library](https://github.com/lls578/dsh-meme-library) —— 梗库
+
 ## License
 
 MIT
