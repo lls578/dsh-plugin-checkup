@@ -1,0 +1,39 @@
+{
+  "name": "dsh-plugin-checkup",
+  "version": "0.1.0",
+  "description": "DSH 插件：插件体检 —— 按「治什么病」分类、查重复能力、查未启用、查更新、看体积（只读）",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "lib", "cordis.patch.yml", "README.md", "CHANGELOG.md", "LICENSE", "scripts"],
+  "scripts": {
+    "test": "node test/plugin.test.mjs",
+    "check": "node --check index.js && node --check lib/inspect.mjs && node --check test/plugin.test.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "plugin-manager", "插件体检"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": { "optional": true },
+    "@deepseek-ai/schemastery": { "optional": true }
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

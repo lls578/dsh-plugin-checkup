@@ -1,0 +1,7 @@
+# dsh-plugin-checkup —— DSH bundle patch
+
+- insert:
+    - id: plugin-checkup
+      name: dsh-plugin-checkup
+      config:
+        checkUpdates: true
