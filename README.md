@@ -1,5 +1,7 @@
 # dsh-plugin-checkup
 
+![ci](https://github.com/lls578/dsh-plugin-checkup/actions/workflows/ci.yml/badge.svg) ![license](https://img.shields.io/badge/license-MIT-green)
+
 DSH（DeepSeek Harness）插件：**插件体检**。装了一堆插件之后，你可能想知道——
 
 - 我到底装了什么？在哪个 profile？是不是根本没启用？
