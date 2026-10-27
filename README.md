@@ -23,6 +23,15 @@ DSH（DeepSeek Harness）插件：**插件体检**。装了一堆插件之后，
 
 记忆/上下文 · 语音/字幕 · 界面/主题/桌宠 · 远程/连接 · 媒体/下载 · 插件管理/市场 · 安全/沙箱 · 会话/进度/任务 · 搜索/网络工具 · 模型/推理
 
+## 截图 &amp; 示例输出
+
+![按治什么病分类](docs/categories.jpg)
+![重复能力](docs/duplicates.jpg)
+![可更新版本](docs/updates.jpg)
+
+完整示例：[docs/example-output.json](docs/example-output.json)（本机真实 profile 体检）
+
+
 ## 示例输出
 
 ```
